@@ -1,0 +1,70 @@
+model = "gpt-5.6-sol"
+model_reasoning_effort = "medium"
+model_verbosity = "low"
+personality = "pragmatic"
+model_context_window = 260000
+model_auto_compact_token_limit = 220000
+model_auto_compact_token_limit_scope = "total"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[agents]
+max_threads = 6
+max_depth = 1
+job_max_runtime_seconds = 1800
+interrupt_message = true
+
+[profiles.economy]
+model = "gpt-5.6-luna"
+model_reasoning_effort = "low"
+model_verbosity = "low"
+
+[profiles.deep]
+model = "gpt-5.6-sol"
+model_reasoning_effort = "high"
+model_verbosity = "medium"
+
+[profiles.legacy55]
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+model_verbosity = "low"
+
+[plugins."github@openai-curated"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[plugins."chrome@openai-bundled"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = false
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = false
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = false
+
+[plugins."vercel@openai-curated"]
+enabled = false
+
+[plugins."supabase@openai-curated"]
+enabled = false
+
+[plugins."netlify@openai-curated"]
+enabled = false
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = false
+
+[plugins."sites@openai-bundled"]
+enabled = false
+
+[plugins."visualize@openai-bundled"]
+enabled = false
+

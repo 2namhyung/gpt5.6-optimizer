@@ -1,0 +1,4 @@
+.codex/
+config.local.toml
+*.log
+
