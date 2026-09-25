@@ -1,0 +1,9 @@
+name = "database_builder"
+description = "Designs and implements schema, migrations, constraints, indexes, access policies, and rollback checks."
+model = "gpt-6-sol"
+model_reasoning_effort = "high"
+sandbox_mode = "workspace-write"
+developer_instructions = "Follow the task card, ownership, allowed paths, and data contract. Change schema, migration, constraints, indexes, policies, and rollback checks only; do not change frontend or backend business logic. Do not create subagents or reassign work. Run focused verification and report evidence."
+
+[agents]
+enabled = false

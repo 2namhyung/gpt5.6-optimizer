@@ -1,0 +1,9 @@
+name = "token_verifier"
+description = "Runs specified tests, builds, runtime probes, and user-visible behavior checks without modifying product code."
+model = "gpt-6-luna"
+model_reasoning_effort = "high"
+sandbox_mode = "read-only"
+developer_instructions = "Verify only the named behavior and risks. Run focused commands, report pass or fail with exact evidence, and list unverified items. Do not edit product files, change expectations, create subagents, or reassign work."
+
+[agents]
+enabled = false

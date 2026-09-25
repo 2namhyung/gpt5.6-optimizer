@@ -1,0 +1,16 @@
+# Merge these root keys and the agents table into an existing config.toml.
+# Preserve unrelated plugins, MCP, auth, notify, trust, approval and sandbox keys.
+model = "gpt-6-sol"
+model_reasoning_effort = "medium"
+model_verbosity = "low"
+model_context_window = 260000
+model_auto_compact_token_limit = 220000
+model_auto_compact_token_limit_scope = "total"
+service_tier = "default"
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3
+default_subagent_model = "gpt-6-sol"
+default_subagent_reasoning_effort = "medium"
+interrupt_message = true

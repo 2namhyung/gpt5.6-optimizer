@@ -1,0 +1,1 @@
+task_id,category,model,effort,attempts,acceptance_pass,critical_defects,unauthorized_scope_changes,wall_seconds,input_tokens,cached_input_tokens,output_tokens,codex_credits,notes

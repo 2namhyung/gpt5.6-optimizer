@@ -1,0 +1,21 @@
+# Task Card
+
+- ID: `<task-id>`
+- 수직 기능: `<작고 독립적인 기능>`
+- Coordinator / contract owner: `<총괄>`
+- Current implementation writer: `<한 명>`
+- Acceptance IDs: `<AC-001>, <AC-002>`
+- 완료 조건: `<관찰 가능한 결과>`
+- 검증 방법: `<AC별 명령·런타임·리뷰 증거>`
+- 허용 경로: `<paths>`
+- 금지 경로: `<paths>`
+- API/data contract: `<문서 링크>`
+- 선행 의존성: `<없음 또는 task IDs>`
+- 테스트 계획: `<명령과 기대 결과>`
+- Base/Current SHA: `<commit SHA>`
+- 시작 dirty snapshot: `<git status 요약>`
+- 상태: `<READY | IMPLEMENTING | VERIFYING | REVIEWING | DONE | BLOCKED>`
+- Writer 인계 이력: `<시각, 이전 → 새 writer, 이유>`
+- Hand-off evidence: `<SHA, diff/status, 재현 근거>`
+- 알려진 위험: `<위험과 완화책>`
+- 외부 작업 승인 범위: `<없음 또는 승인된 범위>`

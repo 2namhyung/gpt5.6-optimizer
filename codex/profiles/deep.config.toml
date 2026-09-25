@@ -1,0 +1,3 @@
+# GPT-6 Astra for difficult architecture and repeated failure diagnosis.
+model = "gpt-6-astra"
+model_reasoning_effort = "high"

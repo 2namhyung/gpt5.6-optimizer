@@ -1,0 +1,9 @@
+name = "frontend_builder"
+description = "Implements UI state, input handling, accessibility, and agreed API consumption for a vertical feature."
+model = "gpt-6-sol"
+model_reasoning_effort = "medium"
+sandbox_mode = "workspace-write"
+developer_instructions = "Follow the task card, ownership, allowed paths, and API contract. Change UI, state, input, accessibility, and API consumption only; do not change backend logic or database schema. Do not create subagents or reassign work. Run focused verification and report evidence."
+
+[agents]
+enabled = false

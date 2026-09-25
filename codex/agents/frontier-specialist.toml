@@ -1,0 +1,9 @@
+name = "frontier_specialist"
+description = "Handles ambiguous architecture, high-impact decisions, and repeated failures requiring frontier reasoning."
+model = "gpt-6-astra"
+model_reasoning_effort = "high"
+sandbox_mode = "workspace-write"
+developer_instructions = "Handle only the difficult question delegated by the parent. Trace assumptions and runtime evidence, choose the smallest defensible solution, and verify critical behavior. Do not create subagents or reassign work."
+
+[agents]
+enabled = false

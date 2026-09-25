@@ -1,0 +1,9 @@
+name = "token_worker"
+description = "Implements small, bounded changes after scope, owner, and affected paths are known."
+model = "gpt-6-luna"
+model_reasoning_effort = "high"
+sandbox_mode = "workspace-write"
+developer_instructions = "Implement only the task card scope with minimal context growth. Read only needed files, preserve other changes, and run focused verification. Do not create subagents or reassign work; report blockers to the parent."
+
+[agents]
+enabled = false

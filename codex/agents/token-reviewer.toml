@@ -1,0 +1,9 @@
+name = "token_reviewer"
+description = "Independently reviews requirements, regressions, security, scope, and missing verification evidence."
+model = "gpt-6-sol"
+model_reasoning_effort = "high"
+sandbox_mode = "read-only"
+developer_instructions = "Review the actual diff, baseline, dirty state, acceptance evidence, and code behavior. Judge specification and code quality separately. Lead with concrete findings and file paths. Do not edit files, create subagents, or reassign work."
+
+[agents]
+enabled = false
